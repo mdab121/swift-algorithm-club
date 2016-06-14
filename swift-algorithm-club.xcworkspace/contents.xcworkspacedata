@@ -1694,6 +1694,56 @@
       </Group>
    </Group>
    <Group
+      location = "group:Shortest Path (Weighted)"
+      name = "Shortest Path (Weighted)">
+      <Group
+         location = "group:SPW"
+         name = "SPW">
+         <Group
+            location = "group:SPW"
+            name = "SPW">
+            <FileRef
+               location = "group:AStar.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Info.plist">
+            </FileRef>
+            <Group
+               location = "group:Other Sources"
+               name = "Other Sources">
+               <FileRef
+                  location = "group:Heap.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:PriorityQueue.swift">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:SPW.h">
+            </FileRef>
+            <FileRef
+               location = "group:SPW.swift">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:SPW.xcodeproj">
+         </FileRef>
+         <Group
+            location = "group:SPWTests"
+            name = "SPWTests">
+            <FileRef
+               location = "group:AStarTests.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Info.plist">
+            </FileRef>
+         </Group>
+      </Group>
+      <FileRef
+         location = "group:SPW.xcworkspace">
+      </FileRef>
+   </Group>
+   <Group
       location = "group:Shuffle"
       name = "Shuffle">
       <FileRef
